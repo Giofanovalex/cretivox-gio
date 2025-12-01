@@ -44,8 +44,8 @@ export default function Login() {
         <section className="flex min-h-[50vh] flex-col items-center justify-center bg-muted/50 px-6 py-20">
             <div className="w-full max-w-md space-y-8 rounded-2xl bg-white p-8 shadow-lg text-tone-100">
                 <div className="text-center">
-                    <h2 className="text-3xl font-bold text-foreground">Login</h2>
-                    <p className="mt-2 text-sm text-muted-foreground">
+                    <h2 className="text-3xl font-bold text-tone-100">Login</h2>
+                    <p className="mt-2 text-sm text-tone-300">
                         Test the API integration (Use 'emilys' / 'emilyspass')
                     </p>
                 </div>

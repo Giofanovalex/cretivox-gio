@@ -43,7 +43,7 @@ export default function About() {
                 </h2>
                 <p
                     ref={textRef}
-                    className="text-3xl font-medium leading-relaxed text-foreground md:text-5xl"
+                    className="text-3xl font-medium leading-relaxed text-tone-100 md:text-5xl"
                 >
                     An enthusiastic, creative, and solution-oriented Computer Science
                     graduate from Gunadarma University.

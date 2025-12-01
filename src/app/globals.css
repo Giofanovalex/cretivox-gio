@@ -46,13 +46,7 @@
   /* Brutalist = No rounded corners */
 }
 
-.dark {
-  /* Invert for dark mode if needed, or keep brutalist style */
-  --background: var(--tone-200);
-  --foreground: var(--tone-400);
-  --muted: var(--tone-300);
-  --card: var(--tone-200);
-}
+
 
 @theme inline {
   --color-background: var(--background);
