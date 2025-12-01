@@ -26,7 +26,7 @@ A brutalist, editorial-style portfolio website built with Next.js, Tailwind CSS,
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/portfolio-2025.git
+    https://github.com/Giofanovalex/cretivox-gio.git
     cd portfolio-2025
     ```
 
@@ -41,15 +41,3 @@ A brutalist, editorial-style portfolio website built with Next.js, Tailwind CSS,
     ```
 
 4.  Open [http://localhost:3000](http://localhost:3000) with your browser.
-
-## 📦 Deployment
-
-This project is optimized for deployment on **Vercel**.
-
-1.  Push your code to GitHub.
-2.  Import the repository in Vercel.
-3.  Deploy!
-
-## 📝 License
-
-© 2025 Vieri Giofanov. All Rights Reserved.
