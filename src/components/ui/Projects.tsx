@@ -66,10 +66,10 @@ export default function Projects() {
         >
             <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 lg:grid-cols-12">
 
-                {/* Left Side - Sticky Image Preview (Desktop Only) */}
+                {/* Left Side Image Preview*/}
                 <div className="hidden lg:col-span-5 lg:block relative">
                     <div className="sticky top-1/2 -translate-y-1/2 h-[50vh] w-full overflow-hidden bg-tone-200 border border-tone-200">
-                        {/* Image Display */}
+                        {/* Image */}
                         <div className="relative h-full w-full">
                             <Image
                                 key={activeProject}
@@ -80,7 +80,7 @@ export default function Projects() {
                             />
                         </div>
 
-                        {/* Overlay Text */}
+                        {/* Text */}
                         <div className="absolute bottom-0 left-0 w-full bg-tone-500 p-4 z-10">
                             <p className="text-tone-400 font-bold uppercase tracking-widest text-sm">
                                 {projects[activeProject].category}
@@ -89,10 +89,10 @@ export default function Projects() {
                     </div>
                 </div>
 
-                {/* Right Side - Project List */}
+                {/* Right Side List Projects */}
                 <div className="lg:col-span-7 flex flex-col z-10 lg:pl-12">
                     <div className="mb-24 pt-12">
-                        <Copy textSize="xl" blockColor="#fe0100">
+                        <Copy textSize="xl" blockColor="#fe0100" className="text-tone-100">
                             SELECTED WORKS
                         </Copy>
                     </div>
@@ -127,7 +127,7 @@ export default function Projects() {
                                     {project.description}
                                 </p>
 
-                                {/* Mobile Image Preview */}
+                                {/* Mobile Image */}
                                 <div className="mt-8 block lg:hidden aspect-video w-full overflow-hidden bg-tone-200 relative">
                                     <Image
                                         src={project.image}

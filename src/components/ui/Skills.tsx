@@ -70,7 +70,7 @@ export default function Skills() {
                 {/* Left Side*/}
                 <div className="lg:col-span-5 lg:h-[calc(100vh-12rem)] lg:sticky lg:top-24 flex flex-col justify-center">
                     <div className="mb-12">
-                        <Copy textSize="xl" blockColor="#fe0100">
+                        <Copy textSize="xl" blockColor="#fe0100" className="text-tone-100">
                             SKILLS & EXPERTISE
                         </Copy>
                         <p className="mt-4 text-tone-300 text-xl max-w-md">
@@ -117,7 +117,7 @@ export default function Skills() {
                                 {skill.items.map((item, idx) => (
                                     <div
                                         key={idx}
-                                        className="group relative flex items-center justify-center overflow-hidden border border-tone-200 bg-tone-400 p-6 text-center transition-all hover:bg-tone-100 hover:text-tone-400"
+                                        className="group relative flex items-center justify-center overflow-hidden border border-tone-200 bg-tone-400 p-6 text-center text-tone-100 transition-all hover:bg-tone-100 hover:text-tone-400"
                                     >
                                         <span className="relative z-10 font-medium uppercase tracking-wider">
                                             {item}

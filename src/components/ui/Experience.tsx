@@ -70,7 +70,7 @@ export default function Experience() {
             className="flex min-h-screen flex-col items-center justify-center px-6 py-20 bg-tone-400"
         >
             <div className="mb-20 text-center">
-                <Copy textSize="xl" blockColor="#fe0100">
+                <Copy textSize="xl" blockColor="#fe0100" className="text-tone-100">
                     EXPERIENCE
                 </Copy>
             </div>
