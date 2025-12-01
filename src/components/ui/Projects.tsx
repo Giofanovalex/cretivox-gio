@@ -16,7 +16,7 @@ const projects = [
         title: "Nichirin Hose",
         category: "Company Profile / CMS",
         description: "Dynamic profile for automotive manufacturer.",
-        image: "https://noxccuzjrkvkcztozjlc.supabase.co/storage/v1/object/public/product-images/cretivox/Screenshot%202025-11-25%20195123.png",
+        image: "https://noxccuzjrkvkcztozjlc.supabase.co/storage/v1/object/public/product-images/cretivox/nichirin.png",
         link: "https://nichirin.id",
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         title: "Coffee Eight",
         category: "E-Commerce / GRPC",
         description: "Scalable platform with Go & Docker.",
-        image: "https://noxccuzjrkvkcztozjlc.supabase.co/storage/v1/object/public/product-images/cretivox/Screenshot%202025-11-25%20205334.png",
+        image: "https://noxccuzjrkvkcztozjlc.supabase.co/storage/v1/object/public/product-images/cretivox/coffee-eight.png",
         link: "https://frontend-67579202976.asia-southeast2.run.app/",
     },
     {
@@ -32,7 +32,7 @@ const projects = [
         title: "Taman Selini",
         category: "Hospitality / Resort",
         description: "High-end resort website in Bali.",
-        image: "https://noxccuzjrkvkcztozjlc.supabase.co/storage/v1/object/public/product-images/cretivox/Screenshot%202025-11-25%20224633.png",
+        image: "https://noxccuzjrkvkcztozjlc.supabase.co/storage/v1/object/public/product-images/cretivox/taman-selini.png",
         link: "https://tamanselinibali.com/",
     },
 ];
